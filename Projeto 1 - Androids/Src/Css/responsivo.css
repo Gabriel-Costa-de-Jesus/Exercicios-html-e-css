@@ -2,7 +2,10 @@
    header p {
     font-size: 14px;
    }
-    main h1, h2{
-    font-size: 20px;
+   main {
+      width: 82%;
+   }
+    main h1, h2 {
+    font-size: 17px;
    }
 }
