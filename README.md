@@ -21,8 +21,8 @@
 
    <h2>🏆 Projetos Destaque</h2>
    <ul>
-       <li><a href="https://linkdoproj1.com" target="_blank">Projeto 1</a> - Uma aplicação web para gerenciamento de tarefas, utilizando HTML, CSS, e JavaScript.</li>
-       <li><a href="https://linkdoproj2.com" target="_blank">Projeto 2</a> - Um site de portfólio pessoal responsivo, desenvolvido com Flexbox e Grid Layout.</li>
+       <li><a href="https://gabriel-costa-de-jesus.github.io/projetos-front_end/html-css-projects/projeto1-android/index.html" target="_blank">Blog de Curiosidades de Tecnologia</a> - Um blog desenvolvido com HTML e CSS que apresenta uma variedade de curiosidades e informações sobre o mundo da tecnologia.</li>
+       <li><a href="https://gabriel-costa-de-jesus.github.io/projetos-front_end/html-css-projects/projeto2-cordel_moderno/index.html" target="_blank">Cordel Moderno sobre Tecnologia</a> - Um cordel moderno que explora e celebra aspectos da tecnologia, utilizando HTML e CSS para um design visualmente envolvente.</li>
    </ul>
 
    <h2> 📩 Como acessar esse projeto?</h2>
