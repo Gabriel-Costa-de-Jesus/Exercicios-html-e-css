@@ -8,14 +8,13 @@
     <link rel="shortcut icon" href="img/Thesquid.ink-Free-Flat-Sample-Space-rocket.ico" type="image/x-icon">
     <style>
         h1 {
-            align="center";
+            text-align: center;
         }
     </style>
         
 </head>
 <body>
     <h1>Seja bem vindo a este repositório</h1>
-    <hr>
 
     ## 📕 ProjectCenter - Repositório de Projetos de Gabriel Costa
 
