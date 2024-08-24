@@ -7,13 +7,23 @@
     <title>Página Git Hub</title>
     <link rel="shortcut icon" href="img/Thesquid.ink-Free-Flat-Sample-Space-rocket.ico" type="image/x-icon">
     <style>
-        @import url('https://fonts.googleapis.com/css2? família= Abissinica+SIL &family= Passion+One & display=swap');
-:root {
-    --font-biografia: 'Abyssinica SIL', sans-serif;
-}
-   
+        h1 {
+            align="center";
+        }
+    </style>
+        
 </head>
 <body>
-    <img src="https://github.com/Gabriel-Costa-de-Jesus/05-Projetos-Pessoais/blob/main/project-center/Src/Img/Gabriel%20costa%20Tech%20Specialist%20icone%20G.png" alt="Linkdln">
+    <h1>Seja bem vindo a este repositório</h1>
+    <hr>
+
+    ## 📕 ProjectCenter - Repositório de Projetos de Gabriel Costa
+
+    Olá! Seja bem-vindo ao meu repositório. Aqui você encontrará diversos projetos que desenvolvi como parte da minha jornada em Rumo ao **Full stack!**
+
+    ## 💡 Descrição Geral 
+
+   Este repositório contém projetos focados em programação, utilizando principalmente HTML, CSS e JavaScript. Eles variam desde pequenos exemplos até projetos completos, mostrando diferentes abordagens e técnicas de desenvolvimento web.
+
 </body>
 </html>
