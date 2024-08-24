@@ -1,0 +1,102 @@
+body {
+    padding-top: 95px; /* Espaço suficiente para o header fixo */
+    padding-bottom: 50px; /* Espaço suficiente para o footer fixo */
+}
+/* Estilos para o nav fixo no topo */
+nav {
+    background-color: #111111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 85px;
+    position: fixed; /* Fixa o nav no topo */
+    top: 0;
+    left: 0;
+    width: 100%; /* Garante que o nav ocupe toda a largura da tela */
+    z-index: 1000; /* Garante que o nav fique sobre o conteúdo */
+}
+
+/* Mantém os estilos atuais para o logo, botões de navegação e redes sociais */
+#logo {
+    margin-left: 50px;
+}
+#logo img {
+    height: 75px;
+}
+#logo img:hover {
+    height: 80px;
+    opacity: 80%;
+}
+#botoes-navegacao {
+    display: flex;
+    gap: 30px;
+}
+#botoes-navegacao a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+#botoes-navegacao a:hover {
+    font-size: 21px;
+    background-color: rgba(255, 255, 255, 0.137);
+    opacity: 80%;
+}
+#botoes-navegacao a:active {
+    color: red;
+}
+#social-media {
+    display: flex;
+    gap: 10px;
+    margin-right: 50px;
+}
+#social-media img {
+    width: 50px;
+    height: 50px;
+}
+#social-media img:hover {
+    width: 55px;
+    height: 55px;
+    opacity: 60%;
+}
+
+main{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+
+/* Estilos para o footer fixo na base */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #111111;
+    z-index: 1000;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 40px; /* Define uma altura fixa para o footer */
+    text-align: center;
+}
+
+footer a {
+    color: rgba(255, 255, 255, 0.616);
+    margin-left: 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+footer a:hover {
+    font-size: 17px;
+    background-color: rgba(255, 255, 255, 0.384);
+    color: white;
+}
+footer a:active {
+    color: red;
+}
+/* Adiciona espaçamento ao conteúdo principal para não ficar oculto atrás do nav e footer */
