@@ -73,10 +73,31 @@
     span.aviso::after {
         color: White;
         content: "❗Atenção, essa página ainda não está pronta para dispositivos movéis! Por favor aguarde até que ela fique pronta!";
-        
+    }
+    span.oculto {
+        display: block;
+        color: white;
+        margin-top: 20px;
+    }
+    span.oculto a {
+        text-decoration: underline;
     }
     /* Footer */
     footer #footer-navegacao {
         display: none;
+    }
+
+    /* Página 02 */
+    main #projects-home {
+        margin-bottom: 50px;
+    }
+    main #projects-home h1 {
+        margin: 50px 0px 0px 10px;
+    }
+    main #projects-home h2 {
+        margin: 20px 0px 0px 10px;
+    }
+    main #projects-home li, #projects-home p {
+        margin: 20px 0px 0px 40px;
     }
 }

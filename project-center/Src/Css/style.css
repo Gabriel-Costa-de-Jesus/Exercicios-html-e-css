@@ -208,6 +208,10 @@ footer a:hover {
     color: #b74b4b;
     transition: 0.6s ease;
 }
+
+span.oculto{
+    display: none;
+}
 /*Página 02 */
 
 main #projects-home {
