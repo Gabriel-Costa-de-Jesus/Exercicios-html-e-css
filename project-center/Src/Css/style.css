@@ -3,6 +3,7 @@
 body {
     padding-top: 95px; /* Espaço suficiente para o header fixo */
     padding-bottom: 50px; /* Espaço suficiente para o footer fixo */
+    background-color: #111111;  
 }
 /* Estilos para o nav fixo no topo */
 nav {
@@ -65,10 +66,6 @@ nav {
     transition: 0.9s ease;
 }
 /* Estilos para o main */
-
-main #home {
-    background-color: #111111;
-}
 main span {
     color: #b74b4b;
 }
@@ -211,4 +208,20 @@ footer a:hover {
     color: #b74b4b;
     transition: 0.6s ease;
 }
-/* Adiciona espaçamento ao conteúdo principal para não ficar oculto atrás do nav e footer */
+/*Página 02 */
+
+main #projects-home {
+    margin-bottom: 50px;
+}
+main #projects-home h1 {
+    margin: 50px 0px 0px 30px;
+}
+main #projects-home h2 {
+    margin: 20px 0px 0px 30px;
+}
+main #projects-home li, #projects-home p {
+    margin: 20px 0px 0px 80px;
+}
+main #projects-home a { 
+    border-bottom: 1px solid blue;
+}
